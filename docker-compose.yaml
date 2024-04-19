@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  ocr:
+  coc-ocr:
     build:
       context: .
       dockerfile_inline: |
@@ -53,7 +53,7 @@ services:
       - .env
     command:
       - run-watcher.sh
-  renamer:
+  coc-renamer:
     build:
       context: .
       dockerfile_inline: |

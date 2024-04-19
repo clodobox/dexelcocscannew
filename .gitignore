@@ -1,10 +1,4 @@
 *.pdf
 *.zip
 !abc.pdf
-env.sh
-dockerfile.bak
-backup/
-.env/
-ocr-output/
-scan-input/
-requirements.txt
+*.code-workspace
